@@ -1,0 +1,6 @@
+<form [formGroup] = "formdata"
+(ngSubmit)="OnClickSubmit(formdata.value)">
+<input name="emailid" placeholder="emailid" formControlName="emailid">
+<input name="passwd" placeholder="passwd" formControlName="passwd">
+<input type="submit" value="Log In">
+</form>
